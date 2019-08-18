@@ -1,0 +1,25 @@
+Question SubtotalGratuity
+
+   
+import java.util.Scanner;
+public class SubtotalGratuity{ // Class name 
+public static void main(String[] args ){ // main method 
+
+// declare the variable
+double Gratuity; // user gratutiy goes in here
+double subtotal; // subtotal goes here
+double Total;
+
+// make or create object 
+Scanner input = new Scanner(System.in);
+System.out.println("enter Subtotal");
+subtotal = input.nextDouble(); 
+System.out.println("enter Gratuity");
+Gratuity = input.nextDouble();
+System.out.println("Total");
+Total = input.nextDouble();
+//Compute
+//formula
+//Dispaly 
+Total = subtotal + Gratuity;
+System.out.println("Total" + subtotal + Gratuity);
